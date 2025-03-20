@@ -39,6 +39,8 @@ h1, h2, h3, h4, p {
 
 .gift-section {
   margin-top: 50px;
+  justify-content: center;
+  align-content: center;
 }
 
 .gift-title {
@@ -92,14 +94,11 @@ a {
 }
 
 .card {
-  margin-top: 50px;
+  margin: auto 23%;
   width: 640px;
   height: 400px;
-  display: flex;
   justify-content: center;
   align-items: center;
-  top: 50%;
-  left: 50%;
   -webkit-perspective: 1200px;
   perspective: 1200px;
   transition: 1s;
